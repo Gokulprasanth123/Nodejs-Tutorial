@@ -1,0 +1,41 @@
+step1: install mongodb driver from npm
+
+installation:
+    npm install mongodb
+
+commands:
+
+table-  collection
+
+insert-insertOne,insertMany
+
+record -document
+
+select -findOne,find
+
+order by-sort
+
+delete=deleteOne,deleteMany
+
+update-updateOne,updateMany
+
+
+projection in mongodb:
+
+  by using this we can decide what are all the columns we need form a collection
+
+  eg:0 for first columns and 1 for second columns
+
+
+  0-except that column
+  1-only that column
+
+
+sorting:
+
+   ascending to descending means 1
+   descending to ascending means -1
+
+
+
+

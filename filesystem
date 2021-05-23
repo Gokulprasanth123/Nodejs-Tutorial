@@ -1,0 +1,26 @@
+can do it using
+   *synchronous 
+   *asynchronous
+READING A FILE:
+        synchronous:
+        var data=fs.readFileSync('filename)
+        asynchronous:
+        fs.readFile('filename',function(err,data));
+
+WRITING A FILE:
+        fs.writeFile('filenmae','msg to be written',function(err))
+        disadvantage:
+               *if we insert new content old content will get erased
+
+APPEND A FILE:
+        fs.appendFile('filename','msg to be appended',function(err))
+
+
+RENAME A FILE:
+        fs.rename('filename1','new filename',function(err))
+
+DELETE A FILE:
+        fs.unlink('filename',function(err))
+OPEN A FILE:
+        fs.open('filename','read/write/append',function(err,data))
+

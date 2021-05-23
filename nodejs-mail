@@ -1,0 +1,11 @@
+nodemailer module:
+
+   This module is used to send gmail from our system
+
+install nodemailer from mpm
+
+    npm install nodemailer
+
+if we want to mail through nodejs we need to turn on the less secure apps in our goooogle account
+
+we can mail as a text or as a html

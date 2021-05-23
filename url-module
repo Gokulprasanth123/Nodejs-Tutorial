@@ -1,0 +1,5 @@
+url consists of three thinngs
+      1)host
+      2)path name
+      3)port number
+example: http://localhost:8080/demo.html

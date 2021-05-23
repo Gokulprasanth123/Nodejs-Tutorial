@@ -1,0 +1,9 @@
+step1: download mysql in our system
+
+step2: connect nodejs and mysql.for that use a driver called mysql.we can install it using the npm install mysql command 
+
+
+createConnection=used to create createConnection
+connect-used to connect
+
+connect.query()-used to write sql queries
